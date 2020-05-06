@@ -1,0 +1,228 @@
+header{
+    position: relative;
+    z-index: 3;
+    background:url('/img/gbwc/header_bg.png') repeat-x;
+}
+header>.top{
+    height:70px;
+    background:url('/img/gbwc/header_top.png') right top no-repeat;
+}
+header>.top .gbwc_logo{
+    position:absolute;
+    top:0;
+    left:0;
+    background:url('/img/gbwc/header_logo_bg.png') left bottom no-repeat;
+    width:500px; 
+    min-height:84px;   
+}
+header>.top .gbwc_logo>a{
+    top: 6px;
+    left:23px;
+    position: absolute;
+}
+header>.top .gbwc_logo .arrow{
+    position:absolute;
+    top:45px;
+    right:5px;
+    cursor:pointer;
+}
+header>.top .gbwc_logo>ul{
+    padding:64px 47px 0 5px;
+    display: none;
+}
+header>.top .gbwc_logo>ul li{
+    padding:12px 23px;
+    border-bottom: #999 solid 1px;
+    color:#000;
+    font-weight:bold;
+}
+header>.top .gbwc_logo>ul li:last-child{
+    border-bottom: none;
+}
+header>.top .gbwc_login{
+    position:absolute;
+    right:0;
+    top:20px;
+}
+header .header_right{
+    position: absolute;
+    right: 190px;
+    top: 20px;
+}
+header .header_right>div{
+    display: inline-block;
+}
+header .header_right .search{
+    top: 2px;
+    position: relative;
+    background: #fff;
+    padding: 0px 5px 0 30px;
+    background:url('/img/header_search_bg.png') no-repeat;
+    width:229px;
+    height:23px;
+}
+header .header_right .search input{
+    border:0;
+    height:23px;
+    width: 190px;
+}
+header .banner{
+    height: 188px;
+    background:url('/img/gbwc/header_bg_sky.jpg') center top no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .menu{
+    height:55px;
+    text-align: center;
+}
+header .menu>ul{
+    width:840px;
+    margin: 0 auto;
+    text-align: left;
+}
+header .menu>ul>li{
+    display: inline-block;
+    font-size: 18px;
+}
+header .menu>ul>li>a{
+    display: block;
+    padding:15px 20px;
+    color:#000;
+}
+header .menu>ul>li.disabled>a{
+    color:#999;
+    cursor: default;
+}
+header .menu>ul>li.join{
+    display: block;
+    float:right;
+    background:#fcc800;
+}
+main {
+    min-height:500px;
+    background: url('/img/gbwc/main_bg.jpg') center top no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+main .main_image{
+    text-align: center;
+    padding: 85px 0 95px;
+}
+main .containerbox{
+    width: 858px;
+    margin:0 auto;
+    padding: 85px 0 95px;
+}
+main .containerbox .head{
+    position: relative;
+}
+main .containerbox .head h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    font-weight: bold;
+}
+main .containerbox .box{
+    background: url('/img/gbwc/container_bg.png') top center repeat-y;
+}
+main .containerbox .box>ul{
+    padding:40px;
+}
+main .containerbox .box>ul>li{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+main .containerbox .box>ul>li>label{
+    width:40%;
+    color:#f7c002;
+    font-size:24px;
+}
+main .containerbox .box>ul>li>p{
+    width:60%;
+    color:#898989;
+    font-size:13px;
+    line-height: 1.5em;
+}
+main .containerbox .box.form{
+    padding:10px 30px;
+}
+.fields {
+    text-align: left;
+    color:#666;
+    font-size:18px;
+    border-bottom: #898989 dashed 1px;
+    padding: 10px 0;
+    margin: 0 0 10px 0; 
+}
+.fields:last-child{
+   border-bottom: none; 
+}
+.fields>label{
+    text-align:justify;
+    color:#f7c002;
+    width: 120px;
+    display: inline-block;
+    padding:10px 0;
+}
+.fields>label>div{
+    width:16px;
+    height:16px;
+    background:#f7c002;
+    display: inline-block;
+    margin-right: 12px;
+}
+.fields p{
+    display:inline-block;
+    padding:10px 10px;
+}
+.fields p>input{
+    width:300px;
+}
+.fields>.row {
+    padding-left: 22px;
+}
+.fields>.row label{
+    width:120px;
+    vertical-align: top;
+    padding-top: 12px;
+}
+.fields>.row label span{
+    text-align: justify;
+}
+.fields>.note {
+    padding:10px;
+    font-size: 12px;
+}
+.fields .label_area{
+    height:270px;
+}
+.fields .label_area>div{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+}
+.fields textarea{
+    position:absolute;
+    width:500px;
+    height:200px;
+    top:10px;
+    left:10px;
+}
+footer .footer_top{
+    display: none;
+}
+#gbwc_join_form .error-icon{
+    position: absolute;
+    top: 16px;
+    left: 456px;
+    color: #c00;
+    font-size: 15px;
+    min-width:160px;
+}
